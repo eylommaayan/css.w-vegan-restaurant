@@ -177,13 +177,34 @@
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
-        "@type": "CreativeWork",
-        "name": "GreenLeaf Vegan Website Example",
-        "author": {
-          "@type": "Organization",
-          "name": "More-Ways",
-          "url": "https://more-ways.co.il"
-        }
+        "@graph": [
+          {
+            "@type": "WebPage",
+            "@id": "https://css-w-vegan-restaurant.more-ways.co.il/#webpage",
+            "name": "GreenLeaf Vegan Restaurant Demo",
+            "author": {
+              "@type": "Organization",
+              "name": "More-Ways",
+              "url": "https://more-ways.co.il"
+            }
+          },
+          {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "More-Ways",
+                "item": "https://more-ways.co.il"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "פרויקט מסעדה טבעונית"
+              }
+            ]
+          }
+        ]
       }
     </script>
   </body>
